@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "statchaitya : Data enthusiast"
+title                    : "Chaitanya Gokhale : Data enthusiast"
 title_separator          : "-"
 name                     : "Chaitanya Gokhale"
 description              : "An amazing Data Science Portfolio of sorts"
