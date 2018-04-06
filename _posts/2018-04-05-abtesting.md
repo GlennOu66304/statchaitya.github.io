@@ -1,9 +1,9 @@
 ---
 title: "A/B Testing: Binomial distribution"
 date: 2018-04-05
-tags: [machine learning, ab testing, testing of hypothesis, statistics, web analytics]
 header:
   image: "/images/abtesting/what-ab-test.png"
+tags: [machine learning, ab testing, testing of hypothesis, statistics, web analytics]
 excerpt: "Machine Learning, Ab testing, Statistics"
 ---
 

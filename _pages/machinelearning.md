@@ -17,5 +17,3 @@ header:
     {% include archive-single.html %}
   {% endfor %}
 {% endfor %}
-
-" This page will host Machine Learning blog posts"
