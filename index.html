@@ -4,3 +4,10 @@ author_profile: true
 header:
 	image: "/images/wallpap_1.jpg"
 ---
+
+<div class="row">
+	<div class="eight columns">
+		{% for post in site.posts %}
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	</div>
+</div>
