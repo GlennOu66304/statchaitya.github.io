@@ -1,5 +1,5 @@
 ---
-title: "A/B Testing: Binomial distribution"
+title: "Binomial distribution"
 date: 2018-04-05
 tags: [abtesting, statistics, web analytics]
 image: "/images/abtesting/what-ab-test.png"
