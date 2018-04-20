@@ -28,3 +28,5 @@ Similarly the occurrences of Case 3 would inflate the sum significantly and occu
 Now coming back to the main question, how does log loss measure UNCERTAINTY of your model? The answer is simple. Suppose we have more of Case 1s and Case 3s, then the sum inside the logloss formula would be greater (would tend to increase). This would imply that the mean (/N) would also tend to increase and will be substantially larger in comparison to what it would have been if Case2s and Case4s got added. So now this value is as large as possible at Case1s and Case3s which indicates a good prediction. If we  multiply it by (- 1) , we would make the value as small as possible. This would now intuitively mean, smaller the value, better is the model i.e. smaller the logloss, better is the model i.e. smaller the UNCERTAINTY, better is the model.
 
 This was as simple as I could get.
+
+$ x - 2 = 4 $
