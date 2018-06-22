@@ -99,9 +99,9 @@ analytics:
 author:
   name             : "Chaitanya Gokhale"
   avatar           : "/images/headshot.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Data Science and Machine Learning Blog"
   location         : "Dallas, TX"
-  email            :
+  email            : "cgokhale92@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -122,7 +122,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "ceejeetoo"
   vine             :
   weibo            :
   xing             :

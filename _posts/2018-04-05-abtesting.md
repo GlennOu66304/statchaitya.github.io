@@ -1,8 +1,8 @@
 ---
 title: "Log Loss: Explained"
 date: 2018-04-05
-tags: [Machine Learning, evaluation, loss]
-excerpt: "Machine Learning, metrics"
+tags: [Metrics]
+excerpt: "Machine Learning, metrics, predictive analytics"
 ---
 
 ## Intuition behind log loss using its formula
