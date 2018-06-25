@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /machine-learning/
-title: "Machine Learning and Other Analytics related posts"
+title: "Data Science blog"
 author_profile: true
 header:
 image: "/images/ds_background.png"
