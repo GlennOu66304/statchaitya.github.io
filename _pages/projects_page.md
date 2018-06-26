@@ -4,4 +4,5 @@ permalink: /projects/
 header:
 ---
 
-Here I will explain some of my projects with links to github
+This page will host my project shortly.
+Page is Under development.
