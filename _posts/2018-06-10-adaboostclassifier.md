@@ -4,8 +4,7 @@ date: 2018-04-05
 tags: [Predictive Analytics]
 excerpt: "Machine Learning, predictive models, boosting, ensemble learning, classification"
 ---
-
-## Intuitive explaination of AdaBoost
+# AdaBoost.M1
 
 Boosting is one of the most powerful ideas introduced in the last twenty years. It was originally designed for classification
 problems but can be extended to regression problems as well. It is a method where multiple models are created using a logic

@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Chaitanya Gokhale"
   avatar           : "/images/headshot.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science and Machine Learning Blog"
+  bio              : "Portfolio & Blog"
   location         : "Dallas, TX"
   email            : "cgokhale92@gmail.com"
   uri              :

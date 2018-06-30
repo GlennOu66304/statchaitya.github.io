@@ -5,9 +5,9 @@ tags: [Metrics]
 excerpt: "Machine Learning, metrics, predictive analytics"
 ---
 
-## Intuition behind log loss using its formula
+# Intuition behind log loss using its formula
 
-![Uncertainty](/images/uncertainty.jpg)
+![Uncertainty](/images/uncertainty_2.jpg)
 
 Log loss is used when we have $${0,1}$$ response. This is usually because when we have $${0,1}$$ response, the best models give us values in terms of probabilities.
 In simple words, log loss measures the **uncertainty** of the probabilities of your model by comparing them to the true labels. Let us look closely at its formula and see how it measures the **uncertainty**.
