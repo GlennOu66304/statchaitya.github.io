@@ -24,9 +24,9 @@ Final solution included a tuned ExTra trees model, xgboost model and a ensemble 
 In this project I am using PySpark (2.3.0)'s latest ML library Spark.ML to predict whether a diabetic patient
 would be readmitted in the future. I am using a dataset from UCI which can be [found here](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008).
 
-The data set has over 1 lakh records of patients who underwent clinical care. The response variable is a 3 category variable having categories ">30" & "<30" which mean that the patient was readmitted and also indicates their age as well as "NO" for no readmission. I converted the problem to a binary classification problem indicating "Yes"/"No" for readmission.
+The data set has over 1 lakh records of patients who underwent clinical care. The response variable is a 3 category variable having categories ">30" & "<30" which mean that the patient was readmitted and also indicates their age as well as "NO" for no readmission. The problem has been converted to binary classification to predict just the 'readmission' and not the age.
 
-After appropriate data cleaning, I used Logistic regression and Random Forests to fit a predictive model. My accuracy right now is **63%**.
+Algorithms used: Logistic Regression & Random Forests. Accuracy = **63%**.
 
 
 ### 3. Santander Customer Satisfaction - Kaggle
