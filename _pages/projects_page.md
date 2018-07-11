@@ -38,3 +38,26 @@ Algorithms used: Logistic Regression & Random Forests. Accuracy = **63%**.
 This was a Kaggle competition hosted in 2016. The dataset was provided by Santander bank and the aim of the competition was to predict whether a customer is satisfied or dis-satisfied with their banking experience.
 
 Final solution included an mean ensemble of two xgboost models trained with a different set of features. Set of features which I had come up after trying a lot of combinations of parameters/features.
+
+
+### 4. Data Visualization: R, ggplot2: Kiva loans prioritization - Kaggle
+
+Kiva.org is a non-profit based out of San Francisco which connects the lenders(us) with needy borrowers throughout the world for personal loans. In early 2018 they provided their loans information on kaggle and challenged kagglers to find out poor regions from the data for which the loans could be prioritized and made available more aggressively than other regions.
+
+I used ggplot2 and other data Visualization packages in R to locate a potential poor segment in Philippines by using the Kiva loans data and some external financial indicators for the sub-regions in philippines.
+
+The documented work done can be found in following **jupyter notebooks**
+
+
+[Notebook 1 - Loan Characteristics in different continents](https://github.com/statchaitya/Kaggle/blob/master/Kiva/Notebooks/Notebook%201%20-%20Loan%20characteristics%20in%20different%20continents.ipynb)
+
+
+[Notebook 2 - Borrower profiles and characteristics](https://github.com/statchaitya/Kaggle/blob/master/Kiva/Notebooks/Notebook%202%20-%20Borrower%20profiles%20and%20characteristics.ipynb)
+
+
+[Notebook 3 - Prioritizing loans in Philippines](https://github.com/statchaitya/Kaggle/blob/master/Kiva/Notebooks/Notebook%203%20-%20Prioritizing%20Loans%20in%20Philippines.ipynb)
+
+
+[Kaggle home page for Kiva Analysis](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding/home)
+
+[Github page for kiva analysis](https://github.com/statchaitya/Kaggle/tree/master/Kiva)
