@@ -1,8 +1,10 @@
 ---
-title:
+title: false
 permalink: /projects/
 header:
+author_profile: false
 ---
+
 ### 1. BNP Paribas Cardiff Claims Management - Kaggle
 
 #### *Rank: 225/2926 (Top 8%)*

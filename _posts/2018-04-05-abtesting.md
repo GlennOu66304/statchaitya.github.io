@@ -3,6 +3,7 @@ title: "Log Loss: Explained"
 date: 2018-04-05
 tags: [Metrics]
 excerpt: "Machine Learning, metrics, predictive analytics"
+author_profile: false
 ---
 
 # Intuition behind log loss using its formula

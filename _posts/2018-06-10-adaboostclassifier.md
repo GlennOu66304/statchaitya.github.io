@@ -3,6 +3,7 @@ title: "The beginning of boosting: AdaBoost"
 date: 2018-04-05
 tags: [Predictive Analytics]
 excerpt: "Machine Learning, predictive models, boosting, ensemble learning, classification"
+author_profile: false
 ---
 # AdaBoost.M1
 
