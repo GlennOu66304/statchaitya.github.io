@@ -1,11 +1,13 @@
 ---
-title: "The beginning of boosting: AdaBoost"
+title: "Adaboost Explained"
 date: 2018-04-05
 tags: [Predictive Analytics]
 excerpt: "Machine Learning, predictive models, boosting, ensemble learning, classification"
 author_profile: false
+read_time: false
 ---
-# AdaBoost.M1
+# <center> Detailed explaination of AdaBoost </center>
+<br/>
 
 Boosting is one of the most powerful ideas introduced in the last twenty years. It was originally designed for classification
 problems but can be extended to regression problems as well. It is a method where multiple models are created using a logic
@@ -21,7 +23,7 @@ Following is the pseudo code of **AdaBoost.M1** algorithm. We will disect and lo
 
 ![AdaBoost PseudoCode](/images/adaboostm1.png)
 
-## To simplify things a bit, the algorithm:
+## <center> To simplify things a bit, the algorithm: </center>
 
 1. Takes in the following parameters: $$M$$ Total number of iterations/runs of a classifier (Let us stick to decision trees for now so $$M$$ decision trees) & a training data of $$N$$ training samples.
 2. Starts off with weighting equally, each of the $$Nth$$ training example by weight $$\frac{1}{N}$$
@@ -34,19 +36,20 @@ The above mechanism raises two important questions. Why are the weights assigned
 The answers to these two questions are the key to understanding how and why boosting works.
 
 ## 1. Why assign weights to training examples?
+<br/>
 
 Lets look at the first question about the weights. At first, the training samples are weighted, then a tree is fit using the weighted error function. After that, while fitting subsequent trees **$$\alpha_{m}$$ does the job of *reducing/not increasing* the weights of those training examples which were *correctly classified* by the current tree $$G_{m}(x)$$ and *increasing* the weights of those which were *misclassified***. (Do not worry if you don't understand how $$\alpha_{m}$$ updates the weights. We will look at that shortly but just keep in mind at a high level what $$\alpha_{m}$$ does to the weights according to correct classification)
 
-To illustrate why this weight updation works: Once $$G_{1}(x)$$ is fit, we will have $$\alpha_{1}$$ which will update the weights for $$G_{2}(x)$$ accordingly. Now consider the fitting of the next tree $$G_{2}(x)$$. We know that decision tree algorithms choose that feature and that value of the feature which minimizes the error at each split. Our error function is $$err_{1} = \frac{\sum_{i=1}^{N} (w_{i}   I(y_{i}\hspace{0.2cm}\neq\hspace{0.2cm}  G_{m}(x_{i})))}{\sum_{i=1}^{N} w_{i}}$$. Note the indicator variable $$I(y_{i}\hspace{0.2cm}\neq\hspace{0.2cm}  G_{m}(x_{i}))$$. Since we have this indicator in the error function, we can see that the decision tree will try to pick the features for the splits which *correctly classify the highly weighted observations (misclassified by the previous tree)* since if these observations were misclassified again then the indicator variable will take the value of $$1$$ and the high weight $$w_{i}$$ will be considered in the evaluation of error. So the decision tree will be forced to prioritize the previously misclassified examples because if it does not, then the weighted error would cease to come down and converge to a minima. Its like manipulating an algorithm to focus on previous misclassified/ highly weighted examples by including the weights in the loss function. This is why weights are assigned to each training example and are accomodated in the error.
+To illustrate why this weight updation works: Once $$G_{1}(x)$$ is fit, we will have $$\alpha_{1}$$ which will update the weights for $$G_{2}(x)$$ accordingly. Now consider the fitting of the next tree $$G_{2}(x)$$. We know that decision tree algorithms choose that feature and that value of the feature which minimizes the error at each split. Our error function is $$err_{1} = \frac{\sum_{i=1}^{N} (w_{i}   I(y_{i}\hspace{0.2cm}\neq\hspace{0.2cm}  G_{1}(x_{i})))}{\sum_{i=1}^{N} w_{i}}$$. Note the indicator variable $$I(y_{i}\hspace{0.2cm}\neq\hspace{0.2cm}  G_{1}(x_{i}))$$. Since we have this indicator in the error function, we can see that the decision tree will try to pick the features for the splits which *correctly classify the highly weighted observations (misclassified by the previous tree)* since if these observations were misclassified again then the indicator variable will take the value of $$1$$ and the high weight $$w_{i}$$ will be considered in the evaluation of error. So the decision tree will be forced to prioritize the previously misclassified examples because if it does not, then the weighted error would cease to come down and converge to a minima. Its like manipulating an algorithm to focus on previous misclassified/ highly weighted examples by including the weights in the loss function. This is why weights are assigned to each training example and are accomodated in the error.
 
 **So higher the weight of a particular training sample, more the chance of the algorithm finding the right criteria to correctly classify it.**
 
 ## 2. What is the use of $$\alpha_{m}$$?
-
+<br/>
 The second important question is, how does $$\alpha_{m}$$ increase the weights of training example misclassified by a classifier $$G_{m}(x)$$ and decrease the weights of correctly classified training examples? Let us look at this by looking at a few cases.
 
 ***Case 1***
-
+<br/>
 
 **Error of $$G_{m}(x)$$ is high**
 
@@ -57,12 +60,14 @@ As we can see $$\alpha_{m}$$ turned out to be low. **$$\alpha_{m}$$ is inversely
 Now let us consider weight updation for the sub-cases of correctly-classified/mis-classified training examples. The formula for weight updation for **any** training example is $$w^{\prime}_{i} = w_{i} * [ \exp(\alpha_{m} * I(y_{i}\hspace{0.2cm}\neq\hspace{0.2cm}  G_{m}(x_{i})) ] $$.
 
 ***Case 1.A***
+<br/>
 
 **Weights of Examples correctly-classified by $$G_{m}(x)$$**
 
 For rightly classified examples, the indicator variable is zero. This implies the exponent term in the weight updation becomes 1 ($$\exp(0) = 1$$). This implies updated weight $$w^{\prime}_{i} = w_{i}$$ i.e. no change.
 
 ***Case 1.B***
+<br/>
 
 **Weights of Examples mis-classified by $$G_{m}(x)$$**
 
@@ -75,7 +80,7 @@ This is how the combination Error, Alpha and Weights is used to create iterative
 
 
 ***Case 2***
-
+<br/>
 
 **Error of $$G_{m}(x)$$ is low**
 
@@ -86,12 +91,14 @@ As we can see $$\alpha_{m}$$ turned out to be high. **$$\alpha_{m}$$ is inversel
 Now let us consider weight updation for the sub-cases of correctly-classified/mis-classified training examples. The formula for weight updation for **any** training example is $$w^{\prime}_{i} = w_{i} * [ \exp(\alpha_{m} * I(y_{i}\hspace{0.2cm}\neq\hspace{0.2cm}  G_{m}(x_{i})) ] $$.
 
 ***Case 2.A***
+<br/>
 
 **Weights of Examples correctly-classified by $$G_{m}(x)$$**
 
 For rightly classified examples, the indicator variable is zero. This implies the exponent term in the weight updation becomes 1 ($$\exp(0) = 1$$). This implies updated weight $$w^{\prime}_{i} = w_{i}$$ i.e. no change.
 
 ***Case 2.B***
+<br/>
 
 **Weights of Examples mis-classified by $$G_{m}(x)$$**
 
@@ -100,5 +107,4 @@ $$\exp(\alpha_{m} * 1) = \exp(+0.95424 * 1) = 2.59669$$. And therefore, $$w^{\pr
 
 
 ## Summary
-
 So this is how the Boosting works in essence. Examples are weighted according to their correct classification and weights are updated at each iteration.
