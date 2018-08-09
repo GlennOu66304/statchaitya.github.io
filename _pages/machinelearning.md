@@ -4,10 +4,8 @@ permalink: /machine-learning/
 title: "Data Science blog"
 author_profile: true
 header:
-image:
+  image: "images/wallpap_1_crop.jpg"
 ---
-
-![Blog](/images/machine-learning/blog_1.png)
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}

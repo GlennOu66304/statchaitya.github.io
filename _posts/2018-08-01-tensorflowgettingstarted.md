@@ -1,7 +1,7 @@
 ---
 title: "Tensorflow: What, Why and Where?"
 date: 2018-04-05
-tags: [AI]
+tags: [Artificial Intelligence]
 excerpt: "Neural networks, AI, Scalability"
 author_profile: false
 read_time: false

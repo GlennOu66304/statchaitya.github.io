@@ -7,7 +7,7 @@ author_profile: false
 
 ### 1. BNP Paribas Cardiff Claims Management - Kaggle
 
-#### *Rank: 225/2926 (Top 8%)*
+#### Rank: 225/2926 (Top 8%)
 
 [Competition home page](https://www.kaggle.com/c/bnp-paribas-cardif-claims-management)
 
@@ -33,7 +33,7 @@ Algorithms used: Logistic Regression & Random Forests. Accuracy = **63%**.
 
 ### 3. Santander Customer Satisfaction - Kaggle
 
-#### *Rank: 540/5123 (Top 11%)*
+#### Rank: 540/5123 (Top 11%)
 
 [Competition home page](https://www.kaggle.com/c/santander-customer-satisfaction)
 
