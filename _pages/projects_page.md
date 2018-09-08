@@ -2,6 +2,7 @@
 title: false
 permalink: /projects/
 header:
+    image: "images/project_4.png"
 author_profile: false
 ---
 
