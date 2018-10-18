@@ -6,7 +6,16 @@ author_profile: false
 
 #  <span style="color:green">  <center> <u> Micro Projects </u> </center>  </span>
 
-### <span style="color:green"> 1. Predictive Analytics using Spark Data Frame API </span>
+### <span style="color:green"> 1. Bank Marketing Analysis: Choosing predictive model having best ROI </span>
+
+[Jupyter notebook](https://github.com/statchaitya/JupyterNotebooks/blob/master/Predictive%20Analytics%20of%20Term%20Deposit%20Subscriptions.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+
+**<u> Brief Summary: </u>** In this small notebook I use 'Cummulative Gains' graph to check which of the two fitted predictive models will give us a better ROI on future Term Deposit campaigns for a bank. Working iteratively to improve the analysis.
+
+**<u> Things learnt: </u>** Using ROI to select predictive models, package 'modelplotpy'
+
+
+### <span style="color:green"> 2. Predictive Analytics using Spark Data Frame API </span>
 
 [Github repo](https://github.com/statchaitya/Spark/tree/master/Diabetes%20Readmission), [Jupyter notebook](https://github.com/statchaitya/Spark/blob/master/Diabetes%20Readmission/rf_and_log_reg.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008)
 
@@ -14,11 +23,11 @@ author_profile: false
 
 **<u> Things learnt: </u>** Worked with Spark.ML Data Frame API, worked with RDDs.
 
-### <span style="color:green"> 2. US Domestic Airline Delays Visualization </span>
+### <span style="color:green"> 3. US Domestic Airline Delays Visualization </span>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W9KWhqwZqTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### <span style="color:green"> 3. Time Series in R: Predicting Bitcoin Closing Values </span>
+### <span style="color:green"> 4. Time Series in R: Predicting Bitcoin Closing Values </span>
 
 [Check out the notebook here](https://github.com/statchaitya/Time-Series-Analysis/blob/master/BitcoinTimeSeriesAnalysis/timeSeriesBitcoin_1.ipynb)
 
