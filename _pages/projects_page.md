@@ -35,7 +35,13 @@ author_profile: false
 
 **<u> Things learnt: </u>** Time Series, auto-arima, exponential smoothing.
 
+### <span style="color:green"> 5. Data cleaning: Finding, manipulation and joining external data </span>
 
+[Jupyter notebook](https://github.com/statchaitya/JupyterNotebooks/blob/master/Notebooks/DataManipulation_1.ipynb), [Original Loans Data](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding), [External Data Souce](http://countrystat.psa.gov.ph/)
+
+**<u> Brief Summary: </u>** In this notebook I execute the task of connecting multiple external data to the analysis table (philp_loans table). The external data was not in the appropriate form for a direct join and neither was main data. So I use text manipulation and joins to bring the data into the right form and then combining it together.
+
+**<u> Things learnt: </u>** Text manipulation/Data cleaning, bringing keys in appropriate form for a join.
 ---
 
 
