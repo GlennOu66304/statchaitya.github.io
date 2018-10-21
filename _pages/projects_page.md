@@ -42,6 +42,7 @@ author_profile: false
 **<u> Brief Summary: </u>** In this notebook I execute the task of connecting multiple external data to the analysis table (philp_loans table). The external data was not in the appropriate form for a direct join and neither was main data. So I use text manipulation and joins to bring the data into the right form and then combining it together.
 
 **<u> Things learnt: </u>** Text manipulation/Data cleaning, bringing keys in appropriate form for a join.
+
 ---
 
 
