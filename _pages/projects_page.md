@@ -8,7 +8,7 @@ author_profile: false
 
 ### <span style="color:green"> 1. Bank Marketing Analysis: Choosing predictive model having best ROI </span>
 
-[Jupyter notebook](https://github.com/statchaitya/JupyterNotebooks/blob/master/Predictive%20Analytics%20of%20Term%20Deposit%20Subscriptions.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+[Jupyter notebook](https://github.com/statchaitya/JupyterNotebooks/blob/master/Notebooks/Predictive%20Analytics%20of%20Term%20Deposit%20Subscriptions.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
 **<u> Brief Summary: </u>** In this small notebook I use 'Cummulative Gains' graph to check which of the two fitted predictive models will give us a better ROI on future Term Deposit campaigns for a bank. Working iteratively to improve the analysis.
 
