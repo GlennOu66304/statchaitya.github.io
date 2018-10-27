@@ -15,7 +15,16 @@ author_profile: false
 **<u> Things learnt: </u>** Using ROI to select predictive models, package 'modelplotpy'
 
 
-### <span style="color:green"> 2. Predictive Analytics using Spark Data Frame API </span>
+### <span style="color:green"> 2. Shiny R: Visualizing Web KPIs </span>
+
+[Link to the app. Note: App load will take a minute or two](https://statchaitya.shinyapps.io/VisualizingWebKPIsBasicShinyApp/)
+
+**<u> Brief Summary: </u>** This is a basic Shiny app which lets users see how 5 key web performance metrics are doing at a daily and monthly level. Working to make the app better and to add more functionality.
+
+**<u> Things learnt: </u>** Shiny app development, using HTML & CSS in Shiny, deploying Shiny app to the cloud
+
+
+### <span style="color:green"> 3. Predictive Analytics using Spark Data Frame API </span>
 
 [Github repo](https://github.com/statchaitya/Spark/tree/master/Diabetes%20Readmission), [Jupyter notebook](https://github.com/statchaitya/Spark/blob/master/Diabetes%20Readmission/rf_and_log_reg.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008)
 
@@ -23,11 +32,13 @@ author_profile: false
 
 **<u> Things learnt: </u>** Worked with Spark.ML Data Frame API, worked with RDDs.
 
-### <span style="color:green"> 3. US Domestic Airline Delays Visualization </span>
+### <span style="color:green"> 4. US Domestic Airline Delays Visualization </span>
+
+**Viewing at 1.5x is advised**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W9KWhqwZqTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### <span style="color:green"> 4. Time Series in R: Predicting Bitcoin Closing Values </span>
+### <span style="color:green"> 5. Time Series in R: Predicting Bitcoin Closing Values </span>
 
 [Check out the notebook here](https://github.com/statchaitya/Time-Series-Analysis/blob/master/BitcoinTimeSeriesAnalysis/timeSeriesBitcoin_1.ipynb)
 
@@ -35,7 +46,7 @@ author_profile: false
 
 **<u> Things learnt: </u>** Time Series, auto-arima, exponential smoothing.
 
-### <span style="color:green"> 5. Data cleaning: Finding, manipulation and joining external data </span>
+### <span style="color:green"> 6. Data cleaning: Finding, manipulation and joining external data </span>
 
 [Jupyter notebook](https://github.com/statchaitya/JupyterNotebooks/blob/master/Notebooks/DataManipulation_1.ipynb), [Original Loans Data](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding), [External Data Souce](http://countrystat.psa.gov.ph/)
 
