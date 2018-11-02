@@ -8,7 +8,7 @@ author_profile: false
 
 ### <span style="color:green"> 1. Bank Marketing Analysis: Choosing predictive model having best ROI </span>
 
-[Jupyter notebook](https://github.com/statchaitya/JupyterNotebooks/blob/master/Notebooks/Predictive%20Analytics%20of%20Term%20Deposit%20Subscriptions.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+[Jupyter notebook](https://nbviewer.jupyter.org/github/statchaitya/JupyterNotebooks/blob/master/Notebooks/Predictive%20Analytics%20of%20Term%20Deposit%20Subscriptions.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
 **<u> Brief Summary: </u>** In this small notebook I use 'Cummulative Gains' graph to check which of the two fitted predictive models will give us a better ROI on future Term Deposit campaigns for a bank. Working iteratively to improve the analysis.
 
@@ -26,7 +26,7 @@ author_profile: false
 
 ### <span style="color:green"> 3. Predictive Analytics using Spark Data Frame API </span>
 
-[Github repo](https://github.com/statchaitya/Spark/tree/master/Diabetes%20Readmission), [Jupyter notebook](https://github.com/statchaitya/Spark/blob/master/Diabetes%20Readmission/rf_and_log_reg.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008)
+[Github repo](https://github.com/statchaitya/Spark/tree/master/Diabetes%20Readmission), [Jupyter notebook](https://nbviewer.jupyter.org/github/statchaitya/Spark/blob/master/Diabetes%20Readmission/rf_and_log_reg.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008)
 
 **<u> Brief Summary: </u>** Created predictive models in a Big Data environment using Spark. The target variable was Readmission (Y=1) or No Readmission (Y=0). Steps used: Replacing "?" as missing values using RDD.map(), integer-encoding, one hot encoding, Logistic Regression and Random Forest.
 
@@ -40,7 +40,7 @@ author_profile: false
 
 ### <span style="color:green"> 5. Time Series in R: Predicting Bitcoin Closing Values </span>
 
-[Check out the notebook here](https://github.com/statchaitya/Time-Series-Analysis/blob/master/BitcoinTimeSeriesAnalysis/timeSeriesBitcoin_1.ipynb)
+[Check out the notebook here](https://nbviewer.jupyter.org/github/statchaitya/Time-Series-Analysis/blob/master/BitcoinTimeSeriesAnalysis/timeSeriesBitcoin_1.ipynb)
 
 **<u> Brief Summary: </u>** Used Time Series Analysis in R to forecast the daily closing values of Bitcoin. Used exponential smoothing and ARIMA models. Compared all fitted models to naive forecasts and selected the best model. Also check out a small blog on [decisions to be taken before we start a Time Series Analysis project](https://statchaitya.github.io/settingupatimeseriesproject/).
 
@@ -48,7 +48,7 @@ author_profile: false
 
 ### <span style="color:green"> 6. Data cleaning: Finding, manipulation and joining external data </span>
 
-[Jupyter notebook](https://github.com/statchaitya/JupyterNotebooks/blob/master/Notebooks/DataManipulation_1.ipynb), [Original Loans Data](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding), [External Data Souce](http://countrystat.psa.gov.ph/)
+[Jupyter notebook](https://nbviewer.jupyter.org/github/statchaitya/JupyterNotebooks/blob/master/Notebooks/DataManipulation_1.ipynb), [Original Loans Data](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding), [External Data Souce](http://countrystat.psa.gov.ph/)
 
 **<u> Brief Summary: </u>** In this notebook I execute the task of connecting multiple external data to the analysis table (philp_loans table). The external data was not in the appropriate form for a direct join and neither was main data. So I use text manipulation and joins to bring the data into the right form and then combining it together.
 
