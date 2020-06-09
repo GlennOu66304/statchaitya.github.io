@@ -6,7 +6,15 @@ author_profile: false
 
 #  <span style="color:green">  <center> <u> Micro Projects </u> </center>  </span>
 
-### <span style="color:green"> 1. Bank Marketing Analysis: Choosing predictive model having best ROI </span>
+### <span style="color:green"> 1. Binary Image Classification: Classifying indian railways electric locomotives </span>
+
+[Jupyter notebook](https://nbviewer.jupyter.org/github/statchaitya/JupyterNotebooks/blob/master/Notebooks/Tensorflow%20in%20practice%20-%20Course%201%20-%20Week%204.ipynb)
+
+**<u> Brief Summary: </u>** This was a part of the final project of the first course in Coursera's tenforflow in practice specialization. I am passionate about railways so I decided to download images of two electric locomotives namely **WAP-4** and **WAP-7** and train a conv net which identifies the respective locomotives.
+
+**<u> Things learnt: </u>** Image classification, hands-on practice on keras
+
+### <span style="color:green"> 2. Bank Marketing Analysis: Choosing predictive model having best ROI </span>
 
 [Jupyter notebook](https://nbviewer.jupyter.org/github/statchaitya/JupyterNotebooks/blob/master/Notebooks/Predictive%20Analytics%20of%20Term%20Deposit%20Subscriptions.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
@@ -15,7 +23,7 @@ author_profile: false
 **<u> Things learnt: </u>** Using ROI to select predictive models, package 'modelplotpy'
 
 
-### <span style="color:green"> 2. Shiny R: Visualizing Web KPIs </span>
+### <span style="color:green"> 3. Shiny R: Visualizing Web KPIs </span>
 
 [Link to the app. Note: App load will take a minute or two](https://statchaitya.shinyapps.io/VisualizingWebKPIsBasicShinyApp/)
 
@@ -24,7 +32,7 @@ author_profile: false
 **<u> Things learnt: </u>** Shiny app development, using HTML & CSS in Shiny, deploying Shiny app to the cloud
 
 
-### <span style="color:green"> 3. Predictive Analytics using Spark Data Frame API </span>
+### <span style="color:green"> 4. Predictive Analytics using Spark Data Frame API </span>
 
 [Github repo](https://github.com/statchaitya/Spark/tree/master/Diabetes%20Readmission), [Jupyter notebook](https://nbviewer.jupyter.org/github/statchaitya/Spark/blob/master/Diabetes%20Readmission/rf_and_log_reg.ipynb), [Original Data](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008)
 
@@ -32,13 +40,13 @@ author_profile: false
 
 **<u> Things learnt: </u>** Worked with Spark.ML Data Frame API, worked with RDDs.
 
-### <span style="color:green"> 4. US Domestic Airline Delays Visualization </span>
+### <span style="color:green"> 5. US Domestic Airline Delays Visualization </span>
 
 **Viewing at 1.5x is advised**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W9KWhqwZqTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### <span style="color:green"> 5. Time Series in R: Predicting Bitcoin Closing Values </span>
+### <span style="color:green"> 6. Time Series in R: Predicting Bitcoin Closing Values </span>
 
 [Check out the notebook here](https://nbviewer.jupyter.org/github/statchaitya/Time-Series-Analysis/blob/master/BitcoinTimeSeriesAnalysis/timeSeriesBitcoin_1.ipynb)
 
@@ -46,7 +54,7 @@ author_profile: false
 
 **<u> Things learnt: </u>** Time Series, auto-arima, exponential smoothing.
 
-### <span style="color:green"> 6. Data cleaning: Finding, manipulation and joining external data </span>
+### <span style="color:green"> 7. Data cleaning: Finding, manipulation and joining external data </span>
 
 [Jupyter notebook](https://nbviewer.jupyter.org/github/statchaitya/JupyterNotebooks/blob/master/Notebooks/DataManipulation_1.ipynb), [Original Loans Data](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding), [External Data Souce](http://countrystat.psa.gov.ph/)
 
